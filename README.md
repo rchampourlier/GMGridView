@@ -1,4 +1,7 @@
 #[GM-GRID-VIEW](http://www.gmoledina.ca/projects/gmgridview/)
+<a target="_blank" href="http://www.gmoledina.ca/projects/gmgridview/">
+<img style="position: relative; width: 768px; margin: 0;" src="http://www.gmoledina.ca/wp-content/uploads/2012/04/GMGridView_iPad_promo1.png" alt="GMGridView"/>
+</a>
 
 "**Definitely looks like one to watch**" [ManiacDev.com]
 
@@ -61,6 +64,7 @@ New feature requests are welcome. (ping [@gmoledina](http://twitter.com/gmoledin
 *  Paging!! 2 horizontally paged layout strategies added
 *  shaking animation on items when in edit mode
 *  Changing the scrollview delegate is allowed!
+*  Cell highlighting support
 *  Demo app provided, with options panel
 
 **Features - Sorting**:
@@ -69,6 +73,11 @@ New feature requests are welcome. (ping [@gmoledina](http://twitter.com/gmoledin
 * Two different animation styles ("Swap" or "Push")
 * Sorted view has a shake animation (can be disabled)
 * Only one UIPanGestureRecognizer and one UILongTouchGestureRecognizer used to track ALL views
+
+**Features - Gestures**:
+
+* Perform a long-press to switch to edit (jiggle) mode
+* Tap between cells to terminate edit mode
 
 **Features - Fullsize**:
 

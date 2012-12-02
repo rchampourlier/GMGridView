@@ -263,6 +263,7 @@
     label.textAlignment = UITextAlignmentCenter;
     label.backgroundColor = [UIColor clearColor];
     label.textColor = [UIColor blackColor];
+    label.highlightedTextColor = [UIColor whiteColor];
     label.font = [UIFont boldSystemFontOfSize:20];
     [cell.contentView addSubview:label];
     
@@ -282,6 +283,11 @@
 - (void)GMGridView:(GMGridView *)gridView didTapOnItemAtIndex:(NSInteger)position
 {
     NSLog(@"Did tap at index %d", position);
+}
+
+- (void)GMGridViewDidTapOnEmptySpace:(GMGridView *)gridView
+{
+    NSLog(@"Tap on empty space");
 }
 
 - (void)GMGridView:(GMGridView *)gridView processDeleteActionForItemAtIndex:(NSInteger)index
